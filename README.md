@@ -1,7 +1,7 @@
 # SHA-256-Implementation
 This is my implementation of the SHA-256 cryptographic hashing algorithm.
 
-Note 1: All variables are 32 bit unsigned integers and addition is calculated modulo 232
+Note 1: All variables are 32 bit unsigned integers and addition is calculated modulo 2^32
 
 Note 2: For each round, there is one round constant k[i] and one entry in the message schedule array w[i], 0 ≤ i ≤ 63
 
