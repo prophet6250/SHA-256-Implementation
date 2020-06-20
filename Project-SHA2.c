@@ -1,5 +1,10 @@
 #include <stdio.h>
-#include "SHA2.h"
+
+typedef unsigned char uint8_t;
+typedef unsigned int  uint32_t;
+
+/* external function declaration */
+extern void SHA2_compression(uint8_t [], uint8_t[]); 
 
 int main(int argc, char *argv[])
 {
